@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*navigation bar started*/
+
+.navbar{
+   background: linear-gradient(to right, #EC4E20,#d0b1ab, #BCD979);
+   height: 65px;
+}
+
+.navbar a{
+   padding: 17px;
+   text-decoration: none;
+   display: inline-block;
+   color: black;
+   margin-left: 45px;
+   font-weight: bolder;
+   font-size: large;
+   margin-top: 5px;
+}
+
+a:hover{
+   color: #044389;
+   background-color: #e5e777;
+   border-bottom: 4px solid blue ;
+}
+/*navigation bar ended*/
+
+.section1{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(225, 150, 10),white,rgb(144, 223, 144));
+ }
+
+ .bannerContainer{
+   display: inline-block;
+   height: 470px;
+   width: 900px;
+   /*background-color: black;*/
+   
+   
+   margin-top: 80px;
+ }
+
+ .bannerContainer img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   border-bottom: 5px solid green;
+   border-right: 5px solid rgb(107, 107, 232);
+   box-shadow: 0 0 15px black;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+ }
+
+ .flagtext{
+   height: 400px;
+   width: 450px;
+   /*background-color: black;*/
+   float: right;
+   margin-right: 50px;
+   margin-top: 45px;
+   font-size: xx-large;
+   font-weight: 420;
+   color: darkred;
+ }
+
+   
+ 
+
+ .tributeText{
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(225, 150, 10),white,rgb(144, 223, 144));
+ }
+  
+  /*section 1 ended*/
+
+ .section2{
+    background-color: #fdc100;
+    height: 80px;
+    width: 300px;
+    float: right;
+    margin-right: 620px;
+    margin-top: 20px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+ }
+
+ .section2 b{
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 15px;
+ }
+
+ .section3{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(225, 150, 10),white,rgb(144, 223, 144));
+ }
+
+ .bhagatImage {
+    height: 500px;
+    width: 350px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+ }
+ .bhagatImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+    border-bottom: 5px solid orange;
+ }
+
+ .content{
+    height: 450px;
+    width: 550px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 80px;
+    color: rgb(43, 56, 17);
+    font-size: x-large;
+ }
+
+ #firstButton{
+    font-size: large;
+    font-weight: 800;
+    color: black;
+    background-color: rgb(155, 108, 108);
+    padding: 3px;
+    text-shadow: 2px 2px 10px orange;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    text-decoration: none;
+ }
+
+ #firstButton:hover{
+    background-color: green;
+ }
+
+ .section4{
+   height: 950px;
+   width: 100%;
+   background: linear-gradient(to right, rgb(225, 150, 10),white,rgb(144, 223, 144));
+ }
+
+ .azad{
+   height: 500px;
+   width:350px;
+   /*background-color: black;*/
+   float: left;
+   margin-left: 50px;
+   margin-top: 100px;
+ }
+
+ .sukhdev{
+   height: 500px;
+   width:350px;
+   /*background-color: black;*/
+   float: left;
+   margin-left: 180px;
+   margin-top: 200px;
+ }
+
+ .rajguru{
+   height: 500px;
+   width:350px;
+   /*background-color: black;*/
+   float: right;
+   margin-right: 60px;
+   margin-top: 320px;
+ }
+
+ .azad img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   box-shadow: 0px 0px 15px 	white;
+   border-radius: 15px;
+ }
+
+ .sukhdev img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   box-shadow: 0px 0px 15px black;
+   border-radius: 15px;
+ }
+
+ .rajguru img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   box-shadow: 0px 0px 15px black;
+   border-radius: 15px;
+ }
+
+ .azad,.sukhdev,.rajguru div{
+   color: red;
+   font-weight: bolder;
+   font-size: xx-large;
+   text-align: center;
+   
+ }
+
